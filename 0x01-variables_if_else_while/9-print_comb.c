@@ -1,25 +1,25 @@
 #include <stdio.h>
 
 /**
- * * main - entry point
- * * Return: always 0 (success)
+ * main - prints all possible combinations of single-digit numbers.
+ * 
+ * Return: Always 0.
  * */
 int main(void)
 {
-	int n;
+	int num
 
-	n = 48;
-
-	while (n <= 57) /57 corresponds with ASCII character 9/
+	for (num = 0; num <= 9; num++)
 	{
-		putchar (n);
-		if (n != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-		n++;
+		putchar((num % 10 ) + '0');
+		if (num == 9)
+			continue;
+
+		putchar(',');
+		putchar(' ')
 	}
-	putchar ('\n'); /add new line/
-		return (0);
+
+	putchar ('\n');
+
+	return (0);
 }

@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * * main - entry point
- * *
- * * Return: always 0 (success)
- * */
+ * main - Prints all possible combination of two different digits, in ascending order,
+ * 	separated by a comma followed by a spcace.
+ *
+ * Return: always 0 (success)
+ */
 int main(void)
 {
 	int a;

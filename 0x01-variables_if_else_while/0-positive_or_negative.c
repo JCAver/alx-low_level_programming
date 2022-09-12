@@ -1,9 +1,3 @@
-uth: Brennan D Baraban
-
- */
-
-
-
 #include <stdlib.h>
 
 #include <time.h>

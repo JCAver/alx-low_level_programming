@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible combination of two different digits, in ascending order,
- * 	separated by a comma followed by a spcace.
+ * main - Prints all possible combination of two different digits,
+ * 	in ascending order, separated by a comma followed by a spcace.
  *
- * Return: always 0 (success)
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -12,9 +12,11 @@ int main(void)
 	int b;
 
 	a = 0;
+
 	while (a <= 9)
 	{
 		b = 0;
+
 		while (b <= 9)
 		{
 			putchar('0' + a);

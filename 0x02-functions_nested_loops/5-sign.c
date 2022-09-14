@@ -4,8 +4,7 @@
  * print sign - check the code.
  * @n: parameter for the function.
  *
- * Return: 1 if c is letter.
- * Return 0 otherwise.
+ * Return: 0
  */
 int print_sign(int n)
 {

@@ -3,15 +3,15 @@
 /**
  * main - check the code
  *
- * Return: Always 0.
+ * Return: void
  */
-
-int main(void)
+void print_alphabet(void)
 {
-	int char letters
+	int i;
 
-	    print_alphabet();
-
-	        return (0);
-
+	for (i = 97; i <= 122; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
 }

@@ -4,7 +4,7 @@
 /**
  * strcat -> this is a function strcat
  * @dest: first param.
- * @src: parsm
+ * @src: param
  * Return: a string.
  */
 char *strcat(char *dest, const char *src)

@@ -1,5 +1,4 @@
-
-i#ifndef _VARIADIC_FUNCTIONS_H
+#ifndef _VARIADIC_FUNCTIONS_H
 #define _VARIADIC_FUNCTIONS_H
 #include <stdarg.h>
 #include <stdio.h>
@@ -13,7 +12,7 @@ typedef struct fmt
 {
 	char *f;
 	void (*p)(va_list s);
-} my_fmt;
+}my_fmt;
 
 
 /*prototypes*/
